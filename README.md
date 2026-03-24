@@ -1,3 +1,17 @@
+# Rozpoznawanie gęstów i budowanie zdań (AI)
+
+> Model sztucznej inteligencji tłumaczący gesty dłoni na litery w czasie rzeczywistym, pozwalający na płynne budowanie zdań.
+
+Projekt to system widzenia maszynowego (Computer Vision), który ułatwia komunikację poprzez automatyczne rozpoznawanie gestów.
+
+## Główne wyzwanie
+Uzyskanie dokładnej segmentacji dłoni oraz zachowanie stabilności rozpoznawania w dynamicznie zmieniającym się środowisku.
+
+## Rozwiązanie
+- Przygotowanie dedykowanej bazy treningowej.
+- Dopasowanie i optymalizacja architektury sieci neuronowej.
+- Skonfigurowanie potoku przetwarzania obrazu pod kątem działania w czasie rzeczywistym.
+
 ## Wymagane dane
 
 Ten projekt wymaga pliku "asl_alphabet_train.zip" , który zawiera dane do trenowania.
